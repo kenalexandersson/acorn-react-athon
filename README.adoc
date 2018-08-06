@@ -1,0 +1,27 @@
+= React-athon
+:toc:
+
+== Overview
+
+== Prerequisities
+=== A decent editor
+You will need a fairly decent editor to help out during your react coding. 
+
+- Visual Studio Code TODO: Link here
+- IntelliJ Community or WebStorm TODO: Link here
+
+=== Nodejs
+Download and Install Nodejs from https://nodejs.org/en/download/ 
+
+=== Setting up the basic react project
+Open a terminal in Linux/MacOS or Powershell prompt if you are using Windows.
+
+[source, bash]
+----
+npx create-react-app my-app
+cd my-app
+npm start
+----
+
+[INFO]
+Webpack and Babel is installed and configured in the background.
