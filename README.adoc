@@ -5,16 +5,28 @@
 
 == Prerequisities
 === A decent editor
-You will need a fairly decent editor to help out during your react coding. 
+You will need a fairly decent editor to help out during your React coding, preferably one with content assist and auto-completion. Choose one below. 
 
-- Visual Studio Code TODO: Link here
-- IntelliJ Community or WebStorm TODO: Link here
+****
+- `Visual Studio Code` https://code.visualstudio.com/download[https://code.visualstudio.com/download]
+- `IntelliJ WebStorm` https://www.jetbrains.com/webstorm/[https://www.jetbrains.com/webstorm/] (30 days trial version)
 
-=== Nodejs
+[TIP]
+====
+If you are in possession of an Intellij IDEA Ultimate license, then you are already good to go. Ultimate contains the same javascript support as Intellij WebStorm.
+====
+
+****
+
+=== Node.js
+`Node.js` is an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside the browser.
+
+****
 Download and Install Nodejs from https://nodejs.org/en/download/ 
+****
 
-== Setting up the basic react project
-There are several ways to setup a React project. It usually involves installing and configuring several tools, where the most noteworthy are _WebPack_ and _Babel_.
+== Setting up a basic React project
+There are several ways to setup a React project. It usually involves installing and configuring several tools, where the most noteworthy are `WebPack` and `Babel`.
 
 
 [width="100%"]
@@ -26,14 +38,15 @@ There are several ways to setup a React project. It usually involves installing 
 
 |====================
 
-Here we will use Facebook's own template archetype `create-react-app` to quickly setup a project. This will setup everything we need, or more specifically it will create:
+Here we will use Facebook's own template `create-react-app` to quickly setup a project. This will setup everything needed, or more specifically it will create:
 
 * A basic boilerplate React application
-* Installations of _Webpack_ and _Babel_, configured in the background
-* A development server that allow for immediate reload when project content is changed
+* Installations of `Webpack` and `Babel`, configured quietly in the background
+* A development server that allow for immediate reload when project files are changed
 
-*How to install*
 
+.Generate template application
+****
 . Open a terminal in Linux/MacOS or Powershell prompt if you are using Windows.
 
 . Generate the React application
@@ -44,12 +57,16 @@ npx create-react-app my-app
 cd my-app
 ----
 
-. Start the devolepment server
+. Start the development server
 +
 [source, bash]
 ----
 npm start
 ----
+
+The application should now be accessible via http://localhost:3000
+
+****
 
 
 
