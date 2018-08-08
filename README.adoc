@@ -1,4 +1,4 @@
-= React-athon
+= react-and-rn-intro
 :toc:
 
 ifdef::env-github[]
