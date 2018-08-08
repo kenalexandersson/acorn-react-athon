@@ -1,6 +1,14 @@
 = React-athon
 :toc:
 
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
 == Overview
 
 == Prerequisities
@@ -67,6 +75,30 @@ npm start
 The application should now be accessible via http://localhost:3000
 
 ****
+
+[quote]
+____
+*Generate template application*
+
+. Open a terminal in Linux/MacOS or Powershell prompt if you are using Windows.
+
+. Generate the React application
++
+[source, bash]
+----
+npx create-react-app my-app
+cd my-app
+----
+
+. Start the development server
++
+[source, bash]
+----
+npm start
+----
+
+The application should now be accessible via http://localhost:3000
+____
 
 
 
