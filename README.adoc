@@ -13,15 +13,43 @@ You will need a fairly decent editor to help out during your react coding.
 === Nodejs
 Download and Install Nodejs from https://nodejs.org/en/download/ 
 
-=== Setting up the basic react project
-Open a terminal in Linux/MacOS or Powershell prompt if you are using Windows.
+== Setting up the basic react project
+There are several ways to setup a React project. It usually involves installing and configuring several tools, where the most noteworthy are _WebPack_ and _Babel_.
 
+
+[width="100%"]
+|====================
+
+| WebPack | At its core, webpack is a static module bundler for modern JavaScript applications. When webpack processes your application, it internally builds a dependency graph which maps every module your project needs and generates one or more bundles.
+
+| Babel | Babel is a javascript compiler that is mainly used to convert ECMAScript 2015+ code into a backwards compatible version of JavaScript in old browsers or environments. 
+
+|====================
+
+Here we will use Facebook's own template archetype `create-react-app` to quickly setup a project. This will setup everything we need, or more specifically it will create:
+
+* A basic boilerplate React application
+* Installations of _Webpack_ and _Babel_, configured in the background
+* A development server that allow for immediate reload when project content is changed
+
+*How to install*
+
+. Open a terminal in Linux/MacOS or Powershell prompt if you are using Windows.
+
+. Generate the React application
++
 [source, bash]
 ----
 npx create-react-app my-app
 cd my-app
+----
+
+. Start the devolepment server
++
+[source, bash]
+----
 npm start
 ----
 
-[INFO]
-Webpack and Babel is installed and configured in the background.
+
+
