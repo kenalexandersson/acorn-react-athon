@@ -10,6 +10,9 @@ ifdef::env-github[]
 endif::[]
 
 == Overview
+Welcome to the _react-and-rn-intro_ at Acorn. Here we will go skinny-dipping together in the shallow part of the React and React Native pond.
+
+TODO: Add additional high level information of what we are going to do here
 
 == Prerequisities
 === A decent editor
@@ -22,7 +25,7 @@ ____
 
 [TIP]
 ====
-If you are in possession of an Intellij IDEA Ultimate license, then you are already good to go. Ultimate contains the same javascript support as Intellij WebStorm.
+If you are in possession of an IntelliJ IDEA Ultimate license, then you are already good to go. Ultimate contains the same javascript support as IntelliJ WebStorm.
 ====
 
 ____
